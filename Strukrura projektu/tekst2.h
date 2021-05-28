@@ -6,7 +6,15 @@
 #define C_OBJE_POWT_TEKST2_H
 
 
-class pytania {
+using namespace std;
+
+
+class Dane{
+    char imie;
+    char nazwisko;
+    int numer_indeksu;
+
+    void sprPazystosc();
 
 };
 
