@@ -7,12 +7,13 @@ using namespace std;
 
 int main() {
 
-    cout << "koniec porgramu";
 
-   Dane d1;
+    Dane d1;
 
     d1. wypelnianie();
     d1. sprPazystosc();
+
+    cout << endl << "kondiec programu";
 
     return 0;
 }

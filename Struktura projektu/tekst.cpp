@@ -9,11 +9,11 @@ using namespace std;
 
 void Dane::sprPazystosc(){
 
-    /*if(numer_indeksu % 2 == 0){
-        cout << "pożysta";
+    if(numer_indeksu % 2 == 0){
+        cout << "pazysta";
     }else
-        cout<< "nie pażysta";
-    */
+        cout<< "nie pazysta";
+
 }
 
 void Dane::wypelnianie(){
