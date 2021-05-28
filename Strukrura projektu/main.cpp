@@ -1,5 +1,5 @@
 #include <iostream>
-#include "tekst2.h"
+#include "tekst.h"
 
 
 
@@ -12,6 +12,7 @@ int main() {
    Dane d1;
 
     d1. wypelnianie();
+    d1. sprPazystosc();
 
     return 0;
 }
