@@ -19,3 +19,13 @@
         cout<<"Promien: "<<r<<endl;
         cout<<"Pole kola : "<<M_PI*r*r<<endl;
     }
+
+    void Kula :: wyswietl()
+    {
+        cout<<"Kula o nazwie: "<<nazwa<<endl;
+        cout<<"Srodek kuli: "<<endl;
+        Punkt::wyswietl();
+        cout<<"Promien: "<<r<<endl;
+        cout<<"Pole kuli : "<<4*M_PI*r*r<<endl;
+
+    }

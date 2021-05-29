@@ -24,9 +24,6 @@ using namespace std;
             x = a;
             y = b;
         }
-
-
-
     };
 
     class Kolo :public Punkt //klasa Kolo dziedziczy publicznie z klasy Punkt
@@ -44,4 +41,21 @@ using namespace std;
             nazwa = nk;
             r = pr;
         }
+    };
+
+    class Kula :public Punkt
+    {
+        float r;
+        string nazwa;
+
+    public:
+        void wyswietl();
+
+        Kula(string nk="Kula", string np="S", float a=0, float b=0, float pr=1)
+        :Punkt(np,a,b)
+        {
+            nazwa = nk;
+            r = pr;
+        }
+
     };
