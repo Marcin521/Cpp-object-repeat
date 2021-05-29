@@ -1,6 +1,22 @@
 #include <iostream>
 
+using namespace std;
+//dynamic alocated
+
+int ile;
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+
+    cout << "ile miejcw w tablicy: ";
+    cin >> ile;
+
+    int *tablica;
+
+    //dynamiczna alokacja pamięci
+    int *wskaznik =tablica;
+    tablica= new int [ile];
+
+    delete [] tablica;
+
+     return 0;
 }
