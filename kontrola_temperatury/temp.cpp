@@ -31,4 +31,13 @@ void Temp::loading() {
     }
 
 
+    Temp::Temp(int a){ // konstruktor
+
+    ile = a;
+
+    }
+
+    Temp::~Temp(){ //destruktor
+
+    }
 

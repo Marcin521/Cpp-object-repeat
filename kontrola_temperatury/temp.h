@@ -1,4 +1,4 @@
-//
+ //
 // Created by Marcin on 29.05.2021.
 //
 
@@ -8,13 +8,15 @@
 
 class Temp {
 
-public:
-    // to change
     int ile;
     int *tablica;
 
 
 
+public:
+    //use constructor
+    Temp(int = 1);
+    ~Temp(); //nie może mieć żadnych argumentów
 
     void loading();
 
