@@ -6,6 +6,7 @@
 #include <chrono>
 #include <thread>
 #include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
@@ -17,7 +18,7 @@ void Temp::loading() {
 
             chrono::seconds interval( 2 );
 
-                tablica[i]=i;
+                tablica[i]=rand() % 100;
                 cout << tablica[i] << endl;
 
             this_thread::sleep_for( interval ) ;
