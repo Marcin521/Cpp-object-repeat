@@ -2,13 +2,46 @@
 // Created by Marcin on 29.05.2021.
 //
 
-#ifndef DZIEDZICZENIE_FUNKCJE_H
-#define DZIEDZICZENIE_FUNKCJE_H
+#include <iostream>
+#include <math.h>
+
+//#ifndef DZIEDZICZENIE_FUNKCJE_H
+//#define DZIEDZICZENIE_FUNKCJE_H
+
+using namespace std;
+
+    class Punkt
+    {
+        float x,y;
+        string nazwa;
+
+    public:
+        void wyswietl();
+
+        Punkt(string n="S", float a=0, float b=0)
+        {
+            nazwa = n;
+            x = a;
+            y = b;
+        }
 
 
-class funkcje {
 
-};
+    };
+
+    class Kolo :public Punkt //klasa Kolo dziedziczy publicznie z klasy Punkt
+    {
+        float r;
+        string nazwa;
+
+    public:
+        void wyswietl();
 
 
-#endif //DZIEDZICZENIE_FUNKCJE_H
+        Kolo(string nk="Kolko", string np="S", float a=0, float b=0, float pr=1)
+                :Punkt(np,a,b)
+        {
+            nazwa = nk;
+            r = pr;
+        }
+    };
